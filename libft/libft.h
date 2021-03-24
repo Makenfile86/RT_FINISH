@@ -68,11 +68,11 @@ void		ft_putchar_fd(char c, int fd);
 void		ft_putstr_fd(char const *s, int fd);
 void		ft_putendl_fd(char const *s, int fd);
 void		ft_putnbr_fd(int n, int fd);
-void	    ft_free_strarray(char **array);
+void		ft_free_strarray(char **array);
 void		ft_dswap(double *a, double *b);
-double	    ft_dmax(double a, double b);
+double		ft_dmax(double a, double b);
 double		ft_dclamp(double min, double max, double value);
-double      ft_fabs(double value);
-double	    ft_atof(const char *str);
+double		ft_fabs(double value);
+double		ft_atof(const char *str);
 
 #endif
